@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Abhinav Taksheel – Designer & Developer</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:wght@600&family=Inter:wght@400;500;600&display=swap">
+<style>
+:root{--bg:#faf8f5;--surface:#fff;--text:#1d1b19;--muted:#6b665f;--accent:#d9480f;--line:#e8e3dc;color-scheme:light;
+box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#151413;--surface:#1f1d1b;--text:#f1ede7;--muted:#a39d94;--accent:#ff8a5c;--line:#2e2b28;color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#151413;--surface:#1f1d1b;--text:#f1ede7;--muted:#a39d94;--accent:#ff8a5c;--line:#2e2b28;color-scheme:dark}
+html{scroll-behavior:smooth;scroll-padding-top:env(safe-area-inset-top,0px)}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--text);font:400 17px/1.6 Inter,system-ui,sans-serif}
+.wrap{max-width:880px;margin:0 auto;padding:0 24px}
+nav{display:flex;justify-content:space-between;align-items:center;padding:24px 0}
+nav a{color:var(--muted);text-decoration:none;margin-left:20px;font-size:15px;font-weight:500}
+nav a:hover{color:var(--accent)}
+.logo{font-family:Fraunces,Georgia,serif;font-size:20px;color:var(--text)!important;margin:0!important}
+.hero{padding:72px 0 56px}
+.hero h1{font-family:Fraunces,Georgia,serif;font-size:clamp(40px,8vw,72px);line-height:1.08;margin:0 0 20px;letter-spacing:-.02em}
+.hero h1 span{color:var(--accent)}
+.hero p{max-width:540px;color:var(--muted);font-size:19px;margin:0 0 28px}
+.btn{display:inline-block;padding:12px 24px;border-radius:999px;background:var(--accent);color:#fff;text-decoration:none;font-weight:600;margin-right:10px}
+.btn.o{background:none;color:var(--text);border:1px solid var(--line)}
+section{padding:48px 0;border-top:1px solid var(--line)}
+h2{font-family:Fraunces,Georgia,serif;font-size:30px;margin:0 0 24px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:18px}
+.card{background:var(--surface);border:1px solid var(--line);border-radius:16px;padding:22px;transition:transform .2s}
+.card:hover{transform:translateY(-4px)}
+.thumb{height:110px;border-radius:10px;margin-bottom:16px;background:linear-gradient(135deg,var(--accent),#f4a261)}
+.card:nth-child(2) .thumb{background:linear-gradient(135deg,#3b82f6,#8b5cf6)}
+.card:nth-child(3) .thumb{background:linear-gradient(135deg,#10b981,#84cc16)}
+.card h3{margin:0 0 6px;font-size:18px}
+.card p{margin:0;color:var(--muted);font-size:15px}
+.tags{display:flex;flex-wrap:wrap;gap:10px}
+.tags span{padding:6px 14px;border:1px solid var(--line);border-radius:999px;font-size:14px;background:var(--surface)}
+footer{padding:40px 0;color:var(--muted);font-size:14px;border-top:1px solid var(--line)}
+</style>
+</head>
+<body>
+<div class="wrap">
+<nav><a class="logo" href="#">Abhinav Taksheel</a><div><a href="#about">About</a><a href="#contact">Contact</a></div></nav>
+
+<header class="hero">
+<h1>Hi, I’m Abhinav.<br>I design &amp; build <span>thoughtful</span> web experiences.</h1>
+<a class="btn" href="#about">About me</a><a class="btn o" href="#contact">Get in touch</a>
+</header>
+
+<section id="about">
+<h2>About Us</h2>
+<p style="font-family:Fraunces,Georgia,serif;font-size:22px;color:var(--accent);margin:0 0 20px">Driven by Purpose. Inspired by Innovation.</p>
+<div style="max-width:640px;color:var(--muted)">
+<p>I’m passionate about turning ideas into solutions that make a real difference. Our approach combines creativity, innovation, and a commitment to quality to deliver experiences that are meaningful, reliable, and user-focused.</p>
+<p>I believe that success comes from understanding people, embracing change, and constantly finding better ways to do things. Every step we take is guided by our dedication to excellence, trust, and continuous growth.</p>
+<p>My vision is to create a future where innovative ideas lead to meaningful change. My mission is to deliver value through thoughtful solutions that make life simpler, better, and more connected.</p>
+<p style="color:var(--text);font-weight:600">More than just what we do, it’s the difference we make that defines us.</p>
+</div>
+</section>
+
+<section id="skills">
+<h2>Skills</h2>
+<div class="tags"><span>Python</span><span>HTML</span><span>Designing</span></div>
+</section>
+
+<section id="contact">
+<h2>Let’s work together</h2>
+<p style="color:var(--muted)">Have a project in mind? I’d love to hear about it.</p>
+<a class="btn" href="mailto:Abhinavtaksheel341@gmail.com">Abhinavtaksheel341@gmail.com</a>
+</section>
+
+<footer>© 2026 Abhinav Taksheel. All rights reserved.</footer>
+</div>
+</body>
+</html>
